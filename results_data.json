@@ -1,0 +1,54 @@
+{
+  "results": [
+    {
+      "id": "greyHoldenUte",
+      "description": "Placeholder text for Celia's Holden Commodore SV6.",
+      "images": [
+        "img/GreyHoldenUte/frontleft.jpeg",
+        "img/GreyHoldenUte/frontright.jpeg",
+        "img/GreyHoldenUte/sideview.jpeg",
+        "img/GreyHoldenUte/backleft.jpeg",
+        "img/GreyHoldenUte/backright.jpeg",
+        "img/GreyHoldenUte/frontinteriorleft.jpeg",
+        "img/GreyHoldenUte/frontinteriorleftcarpet.jpeg",
+        "img/GreyHoldenUte/rearinteriorleft.jpeg",
+        "img/GreyHoldenUte/rearinteriorright.jpeg"
+      ]
+    },
+    {
+      "id": "greyEclipse",
+      "description": "Placeholder text for Celia's Mitsubishi Eclipse Cross.",
+      "images": [
+        "img/GreyEclipse/frontleft.jpeg",
+        "img/GreyEclipse/frontright.jpeg",
+        "img/GreyEclipse/sideview.jpeg",
+        "img/GreyEclipse/backleft.jpeg",
+        "img/GreyEclipse/backright.jpeg",
+        "img/GreyEclipse/frontinteriorleft.jpeg",
+        "img/GreyEclipse/frontinteriorright.jpeg",
+        "img/GreyEclipse/rearinteriorleft.jpeg",
+        "img/GreyEclipse/interiorview.jpeg"
+      ]
+    },
+    {
+      "id": "redMazda3",
+      "description": "Stunning Mazda 3 that received a full exterior detail. Look at that mirror shine!",
+      "images": [
+        "img/RedMazda3/front.jpeg",
+        "img/RedMazda3/frontleft.jpeg",
+        "img/RedMazda3/frontright.jpeg",
+        "img/RedMazda3/sideview.jpg",
+        "img/RedMazda3/backleft.jpeg",
+        "img/RedMazda3/backright.jpeg"
+      ]
+    },
+    {
+      "id": "oldLancer",
+      "description": "An old Mitsubishi Lancer in dire need of some love. Such a wonderful engine deserves a wonderful clean!",
+      "images": [
+        "img/OldLancer/engineafter.jpg",
+        "img/OldLancer/enginebefore.jpg"
+      ]
+    }
+  ]
+}

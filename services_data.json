@@ -1,0 +1,226 @@
+{
+  "services": [
+    {
+      "id": "fullExteriorDetail",
+      "name": "Full Exterior Detail",
+      "summary": "A meticulous process to completely restore your vehicle’s exterior paint, trim and glass to a like-new condition. A range of high quality Meguiar’s products are used to achieve the effect. This process takes 6 to 8 hours dependent on the type of car.",
+      "productPricing": 100,
+      "labourPricingType": "select",
+      "labourPricing": {
+        "descriptions": [
+          "Sedan, hatch, coupe",
+          "Wagon, ute, SUV",
+          "4WD, 7 seater, van"
+        ],
+        "prices": [
+          350,
+          400,
+          450
+        ]
+      },
+      "actions": [
+        "Wash, rinse and dry car to prep for paint work. This includes the inner edge of the wheel arches, as well as chrome and plastic/vinyl trim.",
+        "Clay bar and detailing spray to trap and remove remaining contaminants that are bonded to the paint. This is an important step to make the paint work last as long as possible.",
+        "Cutting compound applied with a dual action orbital polisher. This removes light scratches, swirls, oxidation, water marking and other defects from the clear coat to bring back the original shine of the paint.",
+        "Polish coat applied with a dual action orbital polisher. This eliminates swirl marks and scratches that the cutting compound could not. It also leaves a glossy, mirror-like reflection prior to the application of the wax coat.",
+        "Carnauba paste wax coat applied with a dual action orbital polisher. This protects and enhances the gloss and shine of the polish for up to 3 months.",
+        "Restore and protect faded exterior trim.",
+        "Remove water spotting from and clean all exterior glass."
+      ],
+      "products": [
+        "carWash",
+        "clayBar",
+        "detailingSpray",
+        "cuttingCompound",
+        "polish",
+        "pasteWax",
+        "ceramicTrimRestorer",
+        "glassPolish",
+        "glassCleaner"
+      ]
+    },
+    {
+      "id": "fullInteriorDetail",
+      "name": "Full Interior Detail",
+      "summary": "Comprehensive elimination of all dust, dirt, rocks, pet hair, stains and other debris from the interior of your vehicle, as well as the restoration and protection of all trim and leather surfaces. This not only leaves your interior in a like-new condition, but introduces an aroma of pleasant scents from the residue of the cleaning products.",
+      "productPricing": 75,
+      "labourPricingType": "select",
+      "labourPricing": {
+        "descriptions": [
+          "2 seater",
+          "4-5 seater",
+          "7 seater"
+        ],
+        "prices": [
+          100,
+          150,
+          200
+        ]
+      },
+      "actions": [
+        "Wash paint on the inside of the doors and around the door seals. This covers everything that the full exterior detail did not.",
+        "Wash behind door seals and remove all contaminants caught in them. Clean and protect door seals with trim restorer.",
+        "Remove all dust, dirt, sand, pet hair and other debris from carpet, floor mats, trim and seats using a vacuum cleaner.",
+        "Steam clean all carpet and cloth surfaces to eradicate any stains or debris left behind after vacuuming.",
+        "Wash, restore and protect all leather surfaces.",
+        "Wash, restore and protect all vinyl/trim surfaces.",
+        "Clean all interior glass. This restores it to a streak-free condition that will not glare in the sun."
+      ],
+      "products": [
+        "carWash",
+        "ceramicTrimRestorer",
+        "spotCleanerFormula",
+        "carpetUpholsteryCleaner",
+        "leatherCleaner",
+        "leatherConditioner",
+        "protectant",
+        "glassCleaner"
+      ]
+    },
+    {
+      "id": "wheelTyreDetail",
+      "name": "Wheel & Tyre Detail",
+      "summary": "Got a set of precious rims that have been coated in a nasty layer of brake dust? Not to worry! This service fetches you a complete rejuvenation of your rims and tyres, allowing them to look like-new not just on the front, but on the inside too. All brake dust, grime, and residue is rigorously removed by hand, which perfectly complements a full exterior detail.",
+      "productPricing": 30,
+      "labourPricingType": "flat",
+      "labourPricing": 50,
+      "actions": [
+        "Vehicle chocked, jacked up, placed on jack stands, and wheels removed one-by-one in preparation for cleaning.",
+        "Brake dust, dirt, and other build-up fastidiously removed from rims. Tyre sidewalls also cleaned in preparation for tyre gel.",
+        "Tyre gel applied to tyre sidewalls. This gives them a rich, dark, high-gloss shine that protects from UV damage and browning."
+      ],
+      "products": [
+        "wheelCleaner",
+        "tyreGel"
+      ]
+    },
+    {
+      "id": "engineBayDetail",
+      "name": "Engine Bay Detail",
+      "summary": "Looking to sell your car? Or to just give it the love it deserves? One often overlooked part of cleaning a car is the engine bay. This service is a super clean of that area!",
+      "productPricing": 20,
+      "labourPricingType": "flat",
+      "labourPricing": 30,
+      "actions": [
+        "Remove all dust, grease and other contaminants from all surfaces in the engine bay.",
+        "Restore and protect all plastic/vinyl surfaces.",
+        "Check all fluids and advise you if anything needs to be done. Windscreen washer fluid topped up if required."
+      ],
+      "products": [
+        "engineDegreaser",
+        "brakePartsCleaner",
+        "protectant"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "carWash",
+      "name": "Meguiar’s Gold Class Car Wash Shampoo & Conditioner",
+      "link": "https://www.meguiars.com.au/product/gold-class-car-wash-shampoo-conditioner-1-9-l/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2019/12/G7164_GCWash64_hangtag-1.89L.png"
+    },
+    {
+      "id": "clayBar",
+      "name": "Meguiar’s Smooth Surface Clay Bar",
+      "link": "https://www.meguiars.com.au/product/smooth-surface-clay-bar-3-pack/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2020/01/G1117_QuikClayBar.png"
+    },
+    {
+      "id": "detailingSpray",
+      "name": "Meguiar’s Quik Detailer",
+      "link": "https://www.meguiars.com.au/product/quik-detailer/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2019/12/Meguiars%C2%AE-Quik-Detailer%C2%AE-Mist-Wipe-A3316-16-oz.-Spray-1024x1024.png"
+    },
+    {
+      "id": "cuttingCompound",
+      "name": "Meguiar’s Ultimate Compound",
+      "link": "https://www.meguiars.com.au/product/ultimate-compound/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2019/12/G17216-Ult-Compound.png"
+    },
+    {
+      "id": "polish",
+      "name": "Meguiar’s Ultimate Polish",
+      "link": "https://www.meguiars.com.au/product/ultimate-polish/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2019/12/Meguiars%C2%AE-Ultimate-Polish-G19216-16-oz.-Liquid-1024x1024.png"
+    },
+    {
+      "id": "pasteWax",
+      "name": "Meguiar’s Gold Class Carnauba Plus Paste Wax",
+      "link": "https://www.meguiars.com.au/product/goldclass-paste-wax/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2019/12/Meguiars%C2%AE-Gold-Class%E2%84%A2-Carnauba-Plus-Premium-Paste-Wax-G7014J-11-oz.-Paste-1024x1024.png"
+    },
+    {
+      "id": "ceramicTrimRestorer",
+      "name": "Meguiar’s Hybrid Ceramic Trim Restorer",
+      "link": "https://www.meguiars.com.au/product/meguiars-hybrid-ceramic-trim-restorer/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2022/08/G220316_HybridCeramicTrimRestorer_Hero-copy-1.png"
+    },
+    {
+      "id": "glassPolish",
+      "name": "Meguiar’s Perfect Clarity Glass Polishing Compound",
+      "link": "https://www.meguiars.com.au/product/perfect-clarity-glass-polishing-compound/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2018/05/GlassPolishingCompound-e1526959806292.png"
+    },
+    {
+      "id": "glassCleaner",
+      "name": "Meguiar’s Perfect Clarity Glass Cleaner",
+      "link": "https://www.meguiars.com.au/product/perfect-clarity-glass-cleaner/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2019/12/Meguiars%C2%AE-Perfect-Clarity%E2%84%A2-Glass-Cleaner-G8224-24-oz.-Spray-1024x1024.png"
+    },
+    {
+      "id": "spotCleanerFormula",
+      "name": "Bissell SpotClean Spot & Stain Formula",
+      "link": "https://bissell.com.au/products/twin-pack-spotclean-formula-473-ml",
+      "image": "https://cdn.shopify.com/s/files/1/0079/6229/6372/products/Spot_and_Stain_Spotclean_single_1080x.png?v=1563760821"
+    },
+    {
+      "id": "carpetUpholsteryCleaner",
+      "name": "Meguiar’s Carpet & Upholstery Cleaner",
+      "link": "https://www.meguiars.com.au/product/carpet-and-upholstery-cleaner/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2019/07/g191419_carpetupholstercleaner_hero.png"
+    },
+    {
+      "id": "leatherCleaner",
+      "name": "Meguiar’s Gold Class Leather Cleaner",
+      "link": "https://www.supercheapauto.com.au/p/meguiars-meguiars-gold-class-leather-cleaner-473ml/295178.html",
+      "image": "https://www.supercheapauto.com.au/dw/image/v2/BBRV_PRD/on/demandware.static/-/Sites-srg-internal-master-catalog/default/dw6e7cf7ca/images/295178/SCA_295178_hi-res.jpg?sw=1000&sh=1000&sm=fit"
+    },
+    {
+      "id": "leatherConditioner",
+      "name": "Meguiar’s Gold Class Leather Conditioner",
+      "link": "https://www.meguiars.com.au/product/gold-class-leather-conditioner/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2019/12/Meguiars%C2%AE-Gold-Class%E2%84%A2-Leather-Conditioner-G18616-16-oz.-Spray-1024x1024.png"
+    },
+    {
+      "id": "protectant",
+      "name": "Meguiar’s Ultimate Protectant",
+      "link": "https://www.meguiars.com.au/product/ultimate-protectant/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2011/09/g14512LRFG.png"
+    },
+    {
+      "id": "wheelCleaner",
+      "name": "Meguiar’s Ultimate All Wheel Cleaner",
+      "link": "https://www.meguiars.com.au/product/ultimate-all-wheel-cleaner/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2019/12/Meguiars%C2%AE-Ultimate-All-Wheel-Cleaner-G180124-24-oz.-Spray-1024x1024.png"
+    },
+    {
+      "id": "tyreGel",
+      "name": "Meguiar’s Endurance Tyre Gel",
+      "link": "https://www.meguiars.com.au/product/endurance-tyre-protectant-gel/",
+      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2019/12/Meguiars%C2%AE-Endurance%C2%AE-Tire-Gel-G7516-16-oz.-Gel-1024x1024.png"
+    },
+    {
+      "id": "engineDegreaser",
+      "name": "Chemtech CT14 Engine & Bilge Degreaser",
+      "link": "https://autobarn.com.au/ab/Autobarn-Category/Shop-our-Full-Ranges-by-Brand-%7C-Autobarn/Chemtech/Chemtech-CT14-Engine-%26-Bilge-Degreaser-1L---CT14-1L/p/DI01086",
+      "image": "https://autobarn.com.au/ab/medias/515Wx515H-null?context=bWFzdGVyfHJvb3R8MTI5MTE3fGltYWdlL3BuZ3xoNTQvaDFiLzEwMzMyNjQ3MjYwMTkwLzUxNVd4NTE1SF9udWxsfDFhMjkxM2RmNDMyNGMxZjJjZjExMjI1ZGZlZDUwYzQxZWY0MzY3NmI1YzMxZjgwMzM5ODAwNjdiZTFhNDYwNzY"
+    },
+    {
+      "id": "brakePartsCleaner",
+      "name": "LIQUI MOLY Rapid Brake & Parts Cleaner",
+      "link": "https://www.liquimoly.com.au/2797-rapid-brake-parts-cleaner",
+      "image": "https://www.liquimoly.com.au/assets/full/2797.jpg?20220110121822"
+    }
+  ]
+}

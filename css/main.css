@@ -1,0 +1,119 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("/img/background-large.jpg");
+    background-repeat: repeat;
+}
+
+blockquote {
+    border-left-color: #ccc !important;
+}
+
+hr {
+    border-top-color: #ccc !important;
+}
+
+.container {
+    background-color: rgba(55, 55, 55, 0.95);
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px; /* Make the masthead heading the same height as the navigation */
+}
+
+footer {
+    color: #e5e5e5;
+    line-height: 20px;
+}
+
+footer a {
+    color: #e5e5e5;
+}
+
+footer ul {
+    margin-bottom: 5px;
+}
+
+footer > span,
+footer > ul li {
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.content {
+    background-color: #eee;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+.panel-heading {
+    line-height: 32px;
+}
+
+.panel-title-container {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.panel-options-container * {
+    width: auto !important;
+    display: inline-block !important;
+}
+
+#collapseControls {
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+#collapseControls a {
+    margin-right: 5px;
+}
+
+.product:hover {
+    text-decoration: none;
+}
+
+.product img {
+    display: inline-block;
+    margin: 5px;
+    width: 144px;
+    height: 144px;
+}
+
+.carousel {
+    border: 1px solid #286090;
+    margin-bottom: 20px;
+}
+
+#results .btn {
+    margin-bottom: 20px;
+}

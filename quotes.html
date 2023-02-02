@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="Joshua Skinner">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Level Up! Car Detailing - Quotes</title>
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills pull-right">
+                <li role="presentation"><a href="index.html"><span class="bi bi-house-fill"></span> Home</a></li>
+                <li role="presentation" class="active">
+                    <a href="quotes.html"><span class="bi bi-magic"></span> Quotes<b></b></a>
+                </li>
+                <li role="presentation">
+                    <a href="results.html"><span class="glyphicon glyphicon-heart"></span> Results</a>
+                </li>
+            </ul>
+            <h3 class="text-primary">Level Up! Car Detailing</h3>
+        </nav>
+    </div>
+
+    <div class="container-fluid content">
+        <h1 class="text-center"><span class="bi bi-calculator-fill"></span> Grab a Quote</h1>
+        <p class="text-justify">Click on a service tab to expand it and review the actions taken, products used, as well
+            as the price breakdown. If you'd like a service done to your car, you can add (and remove) it from your
+            total.</p>
+        <hr/>
+
+        <div id="collapseControls">
+            <a onclick="onCollapseAll()" class="btn btn-primary btn-sm pull-right">Collapse All</a>
+            <a onclick="onExpandAll()" class="btn btn-primary btn-sm pull-right">Expand All</a>
+        </div>
+        <div class="panel-group clearfix" id="services" role="tablist" aria-multiselectable="true">
+        </div>
+
+        <div class="container-fluid hidden" id="totalContainer">
+            <h2>Your Total: <span id="total">$0.00</span></h2>
+            <p>Sound good? You're one step away from vehicular perfection. Shoot me an email with your requested
+                services, and we can figure out a day that suits.</p>
+            <div class="text-center">
+                <a href="mailto:josh@levelupcars.au" class="btn btn-primary btn-sm">Send Email</a>
+                &nbsp;&nbsp;<em>(josh@levelupcars.au)</em>
+            </div>
+            <hr/>
+        </div>
+
+        <p id="noServicesSelectedGuidance">Your total will appear here once you have added at least one service to
+            perform on your car.</p>
+    </div>
+</div>
+
+<footer class="container">
+    <span class="pull-left">
+        <u><span class="glyphicon glyphicon-copyright-mark"></span> Level Up! Car Detailing 2023</u>
+    </span>
+    <ul class="list-inline pull-right">
+        <li><a><span class="bi bi-facebook"></span></a></li>
+        <li><a><span class="bi bi-instagram"></span></a></li>
+        <li><a href="https://jss.id.au/"><span class="bi bi-person"></span></a></li>
+    </ul>
+</footer>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+<script src="js/quotes.js"></script>
+</body>
+</html>
