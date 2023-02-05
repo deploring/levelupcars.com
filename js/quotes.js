@@ -157,7 +157,7 @@ function populatePage() {
             '                </a>' +
             '            </h4>' +
             '        </div>' +
-            '        <div class="panel-options-container pull-right">' +
+            '        <div class="panel-options-container">' +
             '            <a class="btn btn-success" id="' + serviceId + 'Button" onclick="onToggleServiceSelection(\'' + serviceId + '\')" disabled>' +
             '                Add' +
             '            </a>' +
@@ -241,5 +241,9 @@ function onCollapseAll() {
 }
 
 $(function () {
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+
     initialise();
 });

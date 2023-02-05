@@ -59,5 +59,9 @@ function populatePage() {
 }
 
 $(function () {
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+
     initialise();
 });
