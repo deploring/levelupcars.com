@@ -9,6 +9,8 @@ function initialise() {
         success: function (json) {
             resultsData = json["results"];
             populatePage();
+
+            $('#loading').addClass('hidden');
         }
     });
 }
@@ -20,7 +22,7 @@ function populatePage() {
         let resultId = result["id"];
 
         resultsContainerElement.append(
-            '<p>' + result["description"] + '</p>' +
+            '<p class="text-justify">' + result["description"] + '</p>' +
             '<div id="' + resultId + '" class="carousel slide" data-ride="carousel" data-interval="false">' +
             '    <ol class="carousel-indicators">' +
             '    </ol>' +

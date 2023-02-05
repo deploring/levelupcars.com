@@ -160,7 +160,7 @@
       "id": "glassPolish",
       "name": "Meguiar’s Perfect Clarity Glass Polishing Compound",
       "link": "https://www.meguiars.com.au/product/perfect-clarity-glass-polishing-compound/",
-      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2018/05/GlassPolishingCompound-e1526959806292.png"
+      "image": "img/products/meguiarsGlassPolishingCompound.png"
     },
     {
       "id": "glassCleaner",
@@ -172,13 +172,13 @@
       "id": "spotCleanerFormula",
       "name": "Bissell SpotClean Spot & Stain Formula",
       "link": "https://bissell.com.au/products/twin-pack-spotclean-formula-473-ml",
-      "image": "https://cdn.shopify.com/s/files/1/0079/6229/6372/products/Spot_and_Stain_Spotclean_single_1080x.png?v=1563760821"
+      "image": "img/products/bissellSpotCleanerFormula.png"
     },
     {
       "id": "carpetUpholsteryCleaner",
       "name": "Meguiar’s Carpet & Upholstery Cleaner",
       "link": "https://www.meguiars.com.au/product/carpet-and-upholstery-cleaner/",
-      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2019/07/g191419_carpetupholstercleaner_hero.png"
+      "image": "img/products/meguiarsCarpetUpholsteryCleaner.png"
     },
     {
       "id": "leatherCleaner",
@@ -196,7 +196,7 @@
       "id": "protectant",
       "name": "Meguiar’s Ultimate Protectant",
       "link": "https://www.meguiars.com.au/product/ultimate-protectant/",
-      "image": "https://meguiars.b-cdn.net/wp-content/uploads/2011/09/g14512LRFG.png"
+      "image": "img/products/meguiarsUltimateProtectant.png"
     },
     {
       "id": "wheelCleaner",
@@ -220,7 +220,7 @@
       "id": "brakePartsCleaner",
       "name": "LIQUI MOLY Rapid Brake & Parts Cleaner",
       "link": "https://www.liquimoly.com.au/2797-rapid-brake-parts-cleaner",
-      "image": "https://www.liquimoly.com.au/assets/full/2797.jpg?20220110121822"
+      "image": "img/products/liquiMolyBrakePartsCleaner.jpg"
     }
   ]
 }

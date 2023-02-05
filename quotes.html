@@ -46,11 +46,12 @@
             total.</p>
         <hr/>
 
-        <div id="collapseControls">
+        <div id="collapseControls" class="hidden">
             <a onclick="onCollapseAll()" class="btn btn-primary btn-sm pull-right">Collapse All</a>
             <a onclick="onExpandAll()" class="btn btn-primary btn-sm pull-right">Expand All</a>
         </div>
         <div class="panel-group clearfix" id="services" role="tablist" aria-multiselectable="true">
+            <h3 id="loading" class="text-center">Loading services, please wait...</h3>
         </div>
 
         <div class="container-fluid hidden" id="totalContainer">
@@ -77,6 +78,7 @@
         <li><a><span class="bi bi-facebook"></span></a></li>
         <li><a><span class="bi bi-instagram"></span></a></li>
         <li><a href="https://jss.id.au/"><span class="bi bi-person"></span></a></li>
+        <li><a href="services_data.json"><span class="bi bi-filetype-json"></span></a></li>
     </ul>
 </footer>
 

@@ -15,6 +15,9 @@ function initialise() {
             servicesData = json["services"];
             productsData = json["products"];
             populatePage();
+
+            $('#loading').addClass('hidden');
+            $('#collapseControls').removeClass('hidden');
         }
     });
 }

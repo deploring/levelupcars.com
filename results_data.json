@@ -1,8 +1,27 @@
 {
   "results": [
     {
+      "id": "redMazda3",
+      "description": "A lovely Mazda 3 that frequents the beach. It received a full interior and exterior detail, as well as a wheel & tyre detail. No amount of sand is a match for me. Check out how good everything came up! The interior smell is indescribably good, and the wax coat on the red paint is just brilliant.",
+      "images": [
+        "img/RedMazda3/frontleft.jpeg",
+        "img/RedMazda3/front.jpeg",
+        "img/RedMazda3/frontright.jpeg",
+        "img/RedMazda3/sideview.jpg",
+        "img/RedMazda3/backleft.jpeg",
+        "img/RedMazda3/backright.jpeg",
+        "img/RedMazda3/wheelclean.jpeg",
+        "img/RedMazda3/frontinteriorright.jpeg",
+        "img/RedMazda3/frontinteriorrightcarpet.jpeg",
+        "img/RedMazda3/frontinteriorleftcarpet.jpeg",
+        "img/RedMazda3/rearinteriorright.jpeg",
+        "img/RedMazda3/rearinteriorleftcarpet.jpeg",
+        "img/RedMazda3/dirtcollection.jpeg"
+      ]
+    },
+    {
       "id": "greyHoldenUte",
-      "description": "Placeholder text for Celia's Holden Commodore SV6.",
+      "description": "A super cool Holden Ute VF Series II, the second of a pair put up for sale. It also received a full interior and exterior detail, as well as a wheel & tyre detail to compliment the paint work. The grime and tar from the road proved a formidable foe, but I always come out on top. Same goes for the deluge of pet hair and sand on the inside. That combined with this car itself being a smash hit, I have no doubt that this car will turn the heads of prospective buyers.",
       "images": [
         "img/GreyHoldenUte/frontleft.jpeg",
         "img/GreyHoldenUte/frontright.jpeg",
@@ -17,7 +36,7 @@
     },
     {
       "id": "greyEclipse",
-      "description": "Placeholder text for Celia's Mitsubishi Eclipse Cross.",
+      "description": "A dazzling Mitsubishi Eclipse Cross, the first of a pair put up for sale. It received a full interior and exterior detail, and a wheel & tyre detail too. Like clockwork, the exterior detailing process lifted out virtually all light to moderate scratches in the paint while bringing out the shine I knew it had. The interior received the same degree of treatment, eliminating stains, pet hair and other debris. This one is sure to catch eyes and sell quickly!",
       "images": [
         "img/GreyEclipse/frontleft.jpeg",
         "img/GreyEclipse/frontright.jpeg",
@@ -31,21 +50,12 @@
       ]
     },
     {
-      "id": "redMazda3",
-      "description": "Stunning Mazda 3 that received a full exterior detail. Look at that mirror shine!",
-      "images": [
-        "img/RedMazda3/front.jpeg",
-        "img/RedMazda3/frontleft.jpeg",
-        "img/RedMazda3/frontright.jpeg",
-        "img/RedMazda3/sideview.jpg",
-        "img/RedMazda3/backleft.jpeg",
-        "img/RedMazda3/backright.jpeg"
-      ]
-    },
-    {
       "id": "oldLancer",
-      "description": "An old Mitsubishi Lancer in dire need of some love. Such a wonderful engine deserves a wonderful clean!",
+      "description": "A perennial Mitsubishi Lancer CE that was in dire need of some love. It received a full exterior detail and an engine bay detail. Included is a before and after shot of the engine bay. Such a wonderful engine only deserves to look as good as the day it rolled off the lot! Much respect.",
       "images": [
+        "img/OldLancer/backleft.jpg",
+        "img/OldLancer/frontleft.jpg",
+        "img/OldLancer/front.jpg",
         "img/OldLancer/engineafter.jpg",
         "img/OldLancer/enginebefore.jpg"
       ]
