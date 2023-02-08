@@ -17,8 +17,20 @@ hr {
     border-top-color: #ccc !important;
 }
 
+nav img {
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+}
+
 nav h3 {
-    display: inline;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+nav {
+    line-height: 42px;
+    vertical-align: middle;
 }
 
 @media (min-width: 768px) {
@@ -117,7 +129,11 @@ footer > ul li {
     height: 144px;
 }
 
-@media (max-width: 625px) {
+@media (max-width: 680px) {
+    nav {
+        line-height: inherit;
+    }
+
     nav .nav-pills {
         display: block;
         float: none !important;
@@ -145,6 +161,26 @@ footer > ul li {
     margin-bottom: 20px;
 }
 
-#results .btn {
+#results .btn,
+#submitRequest {
     margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-control:not(textarea) {
+    display: inline-block !important;
+    width: auto !important;
+}
+
+textarea {
+    min-height: available;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+input {
+    max-width: 100%;
 }

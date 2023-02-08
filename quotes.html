@@ -24,6 +24,7 @@
 <div class="container">
     <div class="header clearfix">
         <nav>
+            <img src="img/logo128.png" alt="Logo"/>
             <h3 class="text-primary">Level Up! Car Detailing</h3>
             <ul class="nav nav-pills pull-right">
                 <li role="presentation"><a href="index.html"><span class="bi bi-house-fill"></span> Home</a></li>
@@ -38,33 +39,95 @@
     </div>
 
     <div class="container-fluid content">
-        <h1 class="text-center"><span class="bi bi-calculator-fill"></span> Grab a Quote</h1>
-        <p class="text-justify">Click on a service tab to expand it and review the actions taken, products used, as well
-            as the price breakdown. If you'd like a service done to your car, you can add (and remove) it from your
-            total.</p>
-        <hr/>
-
-        <div id="collapseControls" class="hidden">
-            <a onclick="onCollapseAll()" class="btn btn-primary btn-sm pull-right">Collapse All</a>
-            <a onclick="onExpandAll()" class="btn btn-primary btn-sm pull-right">Expand All</a>
-        </div>
-        <div class="panel-group clearfix" id="services" role="tablist" aria-multiselectable="true">
-            <h3 id="loading" class="text-center">Loading services, please wait...</h3>
-        </div>
-
-        <div class="container-fluid hidden" id="totalContainer">
-            <h2>Your Total: <span id="total">$0.00</span></h2>
-            <p>Sound good? You're one step away from vehicular perfection. Shoot me an email with your requested
-                services, and we can figure out a day that suits.</p>
-            <div class="text-center">
-                <a href="mailto:josh@levelupcars.au" class="btn btn-primary btn-sm">Send Email</a>
-                &nbsp;&nbsp;<em>(josh@levelupcars.au)</em>
-            </div>
+        <div id="servicesContainer">
+            <h1 class="text-center"><span class="bi bi-calculator-fill"></span> Grab a Quote</h1>
+            <p class="text-justify"><strong>Click on a service tab to expand it for further details.</strong> If you'd
+                like a service done to your car, you can add (and remove) it from your total. If you're happy with the
+                price, you can submit a request to me and I will get back to you to arrange the job.</p>
             <hr/>
+
+            <div id="collapseControls" class="hidden">
+                <a onclick="onCollapseAll()" class="btn btn-primary btn-sm pull-right">Collapse All</a>
+                <a onclick="onExpandAll()" class="btn btn-primary btn-sm pull-right">Expand All</a>
+            </div>
+            <div class="panel-group clearfix" id="services" role="tablist" aria-multiselectable="true">
+                <h3 id="loading" class="text-center">Loading services, please wait...</h3>
+            </div>
         </div>
 
         <p id="noServicesSelectedGuidance">Your total will appear here once you have added at least one service to
             perform on your car.</p>
+
+        <div class="hidden" id="totalAndRequestContainer">
+            <h2>Your Total: <span id="total">$0.00</span></h2>
+            <p>Sound good? You're one step away from vehicular perfection. Fill out your contact details as well as some
+                information about your car and I will endeavour to respond to your request as soon as possible.</p>
+            <hr/>
+            <div class="form-group" id="formClientName">
+                <label class="control-label" for="inputClientName">Your Name</label>
+                <input type="text" class="form-control" id="inputClientName" size="30" maxlength="50"/>
+                <p class="text-danger hidden" id="formClientNameError">
+                    <span class="bi bi-x-circle-fill"></span> <span id="formClientNameErrorMessage"></span>
+                </p>
+            </div>
+            <div class="form-group" id="formEmailAddress">
+                <label class="control-label" for="inputEmailAddress">Email Address</label>
+                <input type="email" class="form-control" id="inputEmailAddress" size="30"/>
+                <p class="text-danger hidden" id="formEmailAddressError">
+                    <span class="bi bi-x-circle-fill"></span> <span id="formEmailAddressErrorMessage"></span>
+                </p>
+            </div>
+            <div class="form-group" id="formPhoneNumber">
+                <label class="control-label" for="inputPhoneNumber">Phone Number</label>
+                <input type="tel" class="form-control" id="inputPhoneNumber" size="15" maxlength="10"/>
+                <p class="text-danger hidden" id="formPhoneNumberError">
+                    <span class="bi bi-x-circle-fill"></span> <span id="formPhoneNumberErrorMessage"></span>
+                </p>
+            </div>
+            <div class="form-group" id="formPostCode">
+                <label class="control-label" for="inputPostCode">Postcode</label>
+                <input type="tel" class="form-control" id="inputPostCode" size="6" maxlength="4"/>
+                <p class="text-danger hidden" id="formPostCodeError">
+                    <span class="bi bi-x-circle-fill"></span> <span id="formPostCodeErrorMessage"></span>
+                </p>
+            </div>
+            <div class="form-group" id="formRequestedDate">
+                <label class="control-label" for="inputRequestedDate">
+                    What date would you like your services done?
+                </label>
+                <input type="date" class="form-control" id="inputRequestedDate"/>
+                <p class="text-danger hidden" id="formRequestedDateError">
+                    <span class="bi bi-x-circle-fill"></span> <span id="formRequestedDateErrorMessage"></span>
+                </p>
+                <p class="text-warning hidden" id="formRequestedDateWarning">
+                    <span class="bi bi-exclamation-circle-fill"></span> You have selected a weekday. If this is not a
+                    public holiday, I probably will not be able to perform your requested service(s) on this day.
+                </p>
+            </div>
+            <div class="form-group" id="formCarModel">
+                <label class="control-label" for="inputCarModel">What is the make and model of your car?</label>
+                <input type="text" class="form-control" id="inputCarModel" size="40"
+                       placeholder="i.e. 2004 Mitsubishi Express WA"/>
+                <p class="text-danger hidden" id="formCarModelError">
+                    <span class="bi bi-x-circle-fill"></span> <span id="formCarModelErrorMessage"></span>
+                </p>
+            </div>
+            <div class="form-group" id="formDetails">
+                <label class="control-label" for="inputDetails">
+                    Any other details you'd like to let me know about?
+                </label>
+                <textarea class="form-control" id="inputDetails" rows="5"></textarea>
+            </div>
+            <h5 class="text-danger hidden" id="formErrorsGuidance">
+                <span class="bi bi-exclamation-circle-fill"></span> <span id="formErrorsGuidanceText"></span>
+            </h5>
+            <a class="btn btn-primary btn-block" id="submitRequest" onclick="submit()">Submit Request</a>
+        </div>
+
+        <div class="hidden" id="requestCompleteContainer">
+            <h2 class="text-center text-success">All done! <span class="bi bi-check-circle-fill"></span></h2>
+            <p class="text-center">I've received your request and will get back to you very soon. Thanks!</p>
+        </div>
     </div>
 </div>
 
@@ -91,5 +154,6 @@
         integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
         crossorigin="anonymous"></script>
 <script src="js/quotes.js"></script>
+<script src="js/quotesForm.js"></script>
 </body>
 </html>

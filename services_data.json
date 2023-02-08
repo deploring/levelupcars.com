@@ -8,7 +8,7 @@
       "labourPricingType": "select",
       "labourPricing": {
         "descriptions": [
-          "Sedan, hatch, coupe",
+          "Sedan, hatch, coupe, cab",
           "Wagon, ute, SUV",
           "4WD, 7 seater, van"
         ],

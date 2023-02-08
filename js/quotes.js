@@ -112,11 +112,11 @@ function updateTotals() {
 
     if (total > 0) {
         $('#noServicesSelectedGuidance').addClass('hidden');
-        $('#totalContainer').removeClass('hidden');
+        $('#totalAndRequestContainer').removeClass('hidden');
         $('#total').text('$' + total.toFixed(2));
     } else {
         $('#noServicesSelectedGuidance').removeClass('hidden');
-        $('#totalContainer').addClass('hidden');
+        $('#totalAndRequestContainer').addClass('hidden');
     }
 }
 
