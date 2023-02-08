@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+error_reporting(E_ALL);
 
 include_once "database_details.php";
 assert(!empty($pgHostString));
@@ -138,7 +138,7 @@ function do_safe_query($query, $params)
 {
     global $db;
 
-    $resultSet = pg_query_params($db, $query, $params);
+    $resultSet = @pg_query_params($db, $query, $params);
 
     if (!$resultSet) {
         http_response(500, 'Error in database query.');
@@ -150,7 +150,7 @@ function do_safe_query($query, $params)
 
 function get_scalar_query_result($query, $params)
 {
-    return pg_fetch_result(do_safe_query($query, $params), 0, 0);
+    return @pg_fetch_result(do_safe_query($query, $params), 0, 0);
 }
 
 $existingRequestsCount = get_scalar_query_result(
