@@ -1,8 +1,12 @@
 <?php
-error_reporting(E_ALL);
+error_reporting(0);
 
 include_once "database_details.php";
 assert(!empty($pgHostString));
+
+if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
+    $_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
+}
 
 function http_response($responseCode, $message)
 {
