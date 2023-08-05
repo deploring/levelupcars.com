@@ -1,6 +1,20 @@
 {
   "results": [
     {
+      "id": "peugeotInterior",
+      "description": "I call this one the Labrador express. This Peugeot 2008 was in dire need of a full interior detail, and I delivered exceptional results! It was the culmination of many hours of hard work. It looks as good as the day it rolled out of the factory!",
+      "images": [
+        "img/PeugeotInterior/passengerbefore.jpeg",
+        "img/PeugeotInterior/driverbefore.jpeg",
+        "img/PeugeotInterior/labrador.jpeg",
+        "img/PeugeotInterior/passengerafter.jpeg",
+        "img/PeugeotInterior/driverafter.jpeg",
+        "img/PeugeotInterior/dash.jpeg",
+        "img/PeugeotInterior/driverrear.jpeg",
+        "img/PeugeotInterior/rearseats.jpeg"
+      ]
+    },
+    {
       "id": "redMazda3",
       "description": "A lovely Mazda 3 that frequents the beach. It received a full interior and exterior detail, as well as a wheel & tyre detail. No amount of sand is a match for me. Check out how good everything came up! The interior smell is indescribably good, and the wax coat on the red paint is just brilliant.",
       "images": [
